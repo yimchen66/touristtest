@@ -1,5 +1,6 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
   <head>
     <title>$Title$</title>
@@ -36,15 +37,6 @@
                   </tr>
                   </thead>
                   <tbody>
-<%--                  <tr th:each="question:${comQuestions}">--%>
-<%--                    <td th:text="${question.getQuestionId()}"></td>--%>
-<%--                    <td style="white-space:nowrap;overflow:hidden;text-overflow: ellipsis;" th:text="${question.getQuestionContent()}"></td>--%>
-<%--                    <td><span class="label label-info" th:text="${question.getQueryNumber()}"></span></td>--%>
-<%--                    <td>--%>
-<%--                      <span th:text="${#dates.format(question.getUpdateTime(),'yyyy-MM-dd HH:mm:ss')}"></span>--%>
-<%--                    </td>--%>
-<%--                    <td><a th:href="@{/stu/toCQDetails/{id}(id=${question.getId()})}" target="_blank">查看详情</a></td>--%>
-<%--                  </tr>--%>
                     <tr>
                       <th class="col-lg-1 column">12212212</th>
                       <th class="col-lg-6 column">2112121212</th>
